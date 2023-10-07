@@ -1,0 +1,65 @@
+.body{
+background-color: #dd9845;
+background: #3498db;
+background-image: url("aaa.avif");
+
+}
+.disp{
+    margin: 100px 300px;
+    font-size: large;
+    border: 10px solid green;
+    padding: 10px 80px;
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.btn{
+    background-color: darkcyan;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 2px 4px;
+}
+
+.btn:hover{
+    background-color: chocolate;
+}
+
+.inField{
+font-weight: bold;
+padding-left: 8px;
+border: 2px solid #3498db;
+border-radius: 4px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul#taskList > li, .edit-btn {
+    width: 200px;
+    display: flex; 
+    align-items: center;
+}
+
+#icon {
+    margin-right: 10px;
+}
+
+.delete-btn, .edit-btn {
+    margin-left: auto; 
+}
+
+.edit-btn {
+    width: 30px;
+    background-color: orange; 
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 2px 4px;
+    margin-left: 6px;
+    cursor: pointer; 
+}
+
+.edit-btn:hover {
+    background-color: hsl(30, 33%, 38%); 
+}
