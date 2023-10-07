@@ -1,0 +1,50 @@
+.body{
+background-color: bisque;
+
+
+
+}
+
+
+.disp{
+    margin: 100px 300px;
+    font-size: large;
+    border: 5px solid green;
+    padding: 10px 80px;
+    height: 300px;
+    width: 300px;
+        
+}
+
+.btn{
+    background-color: darkcyan;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 2px 4px;
+}
+
+.inField{
+font-weight: bold;
+padding-left: 8px;
+border: 2px solid #3498db;
+border-radius: 4px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul#taskList > li, .edit-btn {
+    width: 200px;
+    display: flex; 
+    align-items: center;
+}
+
+#icon {
+    margin-right: 10px;
+}
+
+.delete-btn, .edit-btn {
+    margin-left: auto; 
+}
+
