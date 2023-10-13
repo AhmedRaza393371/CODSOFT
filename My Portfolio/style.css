@@ -1,0 +1,351 @@
+.body {
+    display: block;
+    max-width: 100px;
+    max-height: 0px;
+    width: 80%;
+    height: auto; 
+}
+#align{
+    text-align: justify;
+}
+.highlight{
+    color: chocolate;
+}
+
+
+.profImg {
+    float: right;
+    width: 200px;
+    height: 300px;
+    margin-right: 400px; 
+    position: relative;
+    margin-top: -80;
+    top: -80px; 
+    border: 4px solid #b06464; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    transition: transform 0.3s ease; 
+}
+
+/* Add a hover effect for a slight scale increase */
+.profImg:hover {
+    transform: scale(1.1);
+}
+
+#loosi {
+    float: right;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    margin-bottom: -50px;
+    margin-right: -400px;
+    align-items: flex-end; 
+    margin-top: -50px;
+    
+}
+
+#loosi a {
+    padding-top: 10px;
+    font-size: 32px;
+    margin-right: 15px;
+ 
+}
+
+h1{
+    margin-top: 90px;
+    margin-right: 30px;
+    text-align: left;
+    justify-content: left;
+    font-weight: bolder;
+    margin-left: 60px;
+    position: relative;
+}
+
+h4{
+    margin-right: 30px;
+    text-align: left;
+    justify-content: left;
+    margin-left: 60px;
+    position: relative;
+}
+
+.textfield{
+    text-align: center;
+    margin-right: 180px;
+}
+
+h2{
+    margin-left: 60px;
+}
+
+.textH4{
+line-height: 2;
+font-weight: normal;
+margin-right: 500px;
+}
+
+#foot{
+    margin-left: 70px;
+    font-size: medium;
+    margin-top: -100px;
+}
+
+#foot a{
+padding-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .sidebar {
+        width: 100%; 
+    }
+
+    .content {
+        width: 100%; 
+    }
+}
+
+/* Contact Info */
+.cnt{
+    margin-top: 0px;
+    margin-left: 500px;
+}
+
+
+#contList a {
+  margin-right: 8px;
+   font-size: 25px;
+   padding-left: 10px;
+    
+}
+
+#msg input{
+    size: 60px;
+    margin-right: 30px;
+    margin-left: 40px;
+    border: 2px solid #b06464;
+    /* padding-left: 5px; */
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+#snd{
+    color: black;
+    margin-left: 40px;
+    padding: 5px 5px;
+    border-radius: 10px;
+    background-color: #7b937b;
+    font-weight: bold;
+    
+}
+
+textarea {
+    font-size: 18px; 
+    width: 50%; 
+    box-sizing: border-box; 
+    margin-left: 40px;
+    border-radius: 5px;
+    border: 3px solid #b06464;
+   
+}
+
+/* Skill Section */
+#skill-section{
+    width: 90%;
+    height: 100%;
+    height: auto;
+    padding: 80px 5%;
+    background-color: cornsilk;
+    
+}
+
+.header{
+    width: 100%;
+    margin-top: -10px;
+    display: grid;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+.header p{
+font-weight: bold;
+    margin-top: 3px;
+}
+
+.skill-main{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 15px;
+    margin-left: 80px;
+}
+
+.skill-main .skill-bar .info{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.skill-bar .bar{
+    width: 100%;
+    height: 10px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.199);
+    border-radius: 25px;
+    margin-bottom: 8px;
+}
+
+.skill-bar .bar span{
+width: 50%;
+height: 100%;
+position: absolute;
+background-color: #e74d06;
+border-radius: 25px;
+}
+
+.skill-bar .info .percent{
+font-weight: bold;
+}
+
+.skill-bar .bar .html{
+    width:  90%;
+    animation: html 3s;
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+.skill-bar .bar .css{
+    width:  80%;
+    animation: css 3s;
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+.skill-bar .bar .react{
+    width:  80%;
+    animation: react 3s;
+}
+@keyframes react{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+
+.skill-bar .bar .java{
+    width:  70%;
+    animation: java 3s;
+}
+@keyframes java{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+.skill-bar .bar .game{
+    width:  85%;
+    animation: game 3s;
+}
+@keyframes game{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+
+.skill-bar .bar .python{
+    width:  75%;
+    animation: python 3s;
+}
+@keyframes python{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+
+.skill-bar .bar .assembly{
+    width:  60%;
+    animation: assembly 3s;
+}
+@keyframes assembly{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+.skill-bar .bar .javascript{
+    width:  90%;
+    animation: javascript 3s;
+}
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+
+/* Project section */
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    justify-items: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+}
+.para{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    text-align: center; /* Center content horizontally */
+}
+
+.proImage {
+    width: 100%; /* Allow images to expand to full width of the container */
+    max-width: 300px; /* Set a maximum width for images */
+    height: auto;
+}
+
+.fa-github {
+    margin-top: 10px;
+    font-size: 24px;
+}
+ 
+.pro{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 500px;
+}
